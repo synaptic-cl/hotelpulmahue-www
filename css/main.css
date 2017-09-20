@@ -958,3 +958,172 @@ ul.nostyle i {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+    .panel {
+        background: transparent;
+        border-color: transparent;
+        border-radius: 0 26px 26px 0;
+        box-shadow: none;
+        color: #fff;
+        height: 230px;
+        margin-bottom: 20px;
+        position: relative;
+        width: auto;
+    }
+    .panel a {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .panel a:hover{
+        text-decoration: none;
+    }
+    .panel-rightbody i{
+        font-size: 40px;
+    }
+
+    .panel-default > .panel-leftheading
+    {
+        background: #455A64;
+    }
+
+    .panel-leftheading
+    {
+        float: left;
+        height: 100%;
+        padding: 10px 15px;
+        position: absolute;
+        width: 42px;
+        /*border-radius: 0 15px 15px 0;*/
+    }
+
+    .panel-lefttitle
+    {
+        position: absolute;
+        -webkit-transform: rotate(270deg);
+        -webkit-transform-origin: left top;
+        -moz-transform: rotate(270deg);
+        -moz-transform-origin: left top;
+        -ms-transform: rotate(270deg);
+        -ms-transform-origin: left top;
+        -o-transform: rotate(270deg);
+        -o-transform-origin: left top;
+        transform: rotate(270deg);
+        transform-origin: left top;
+    }
+
+    .panel-rightbody {
+        background: #455A64 none repeat scroll 0 0;
+        display: none;
+        float: left;
+        height: 100%;
+        margin-left: 42px;
+        padding: 2px;
+        /*width: 746px;*/
+        border-radius: 0 25px 25px 0;
+    }
+    .panel-rightbody > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    #leftSLideBar {
+        left: -1px;
+        position: fixed;
+        z-index: 9999;
+    }
+    #leftSLideBar .panel-rightbody p {  line-height: 17px; }
+    #leftSLideBar .panel-rightbody i.fa {  margin-bottom: 30px; }
+    #leftSLideBar .panel-leftheading {  opacity:0.8;}
+    #leftSLideBar .panel-lefttitle {
+        bottom: -20px;
+        font-size: 23px;
+        font-weight: 300;
+        left: 0;
+        color: #ffffff;
+        line-height: 30px;
+        padding-left: 20px;
+        white-space: nowrap;
+    }
+    #leftSLideBar .panel.panel-default > img:first-child {
+        height: 64px;
+        opacity: 0.7;
+        position: absolute;
+        right: 53px;
+        top: 37px;
+        width: 169px;
+    }
+    #leftSLideBar:hover .panel-rightbody {
+        display: table;
+    }
+    #rightSLideBar {
+        right: 40px;
+        position: fixed;
+        top: 50px;
+    }
+    #rightSLideBar .panel-lefttitle{
+        bottom: 10px;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: -12px;
+        white-space: normal;
+        width: 250px;
+    }
+    #rightSLideBar .panel-lefttitle i.fa{
+        display: block;
+        float: left;
+        font-size: 44px;
+        padding-right: 11px;
+    }
+    #rightSLideBar .panel-leftheading {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 15px;
+        right: -47px;
+        border-radius: 15px 0 0 15px;
+        width: 49px;
+    }
+    #rightSLideBar .panel-rightbody{
+        width: 505px;
+        background: #1bb4a4;
+        position: relative;
+        border-radius:10px 0 0 10px;
+        border:1px solid #000;
+        border-right: none;
+    }
+    #rightSLideBar .panel-rightbody > div{ vertical-align : top; }
+    #rightSLideBar .panel{ height:247px;}
+    #rightSLideBar .panel-rightbody h4 {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left
+    }
+    #rightSLideBar .panel-rightbody p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        max-width: 264px;
+        text-align: left;
+    }
+    #rightSLideBar:hover .panel-rightbody {
+        display: table;
+    }
+    #rightSLideBar:hover .panel-leftheading {
+        background:#1BB4A4;
+    }
+
+    #botcell {
+        bottom: 17px;
+        left: 74px;
+        position: absolute;
+    }
+    #rightSLideBar:hover .panel-leftheading,
+    #leftSLideBar:hover .panel-leftheading{
+        border-radius: 1px 1px 1px 1px;
+        opacity: 1;
+    }
+    #rightSLideBar:hover .panel-leftheading{
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
